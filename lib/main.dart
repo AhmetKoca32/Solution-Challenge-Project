@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:gender_equality/pages/home_page.dart';
+import 'package:gender_equality/pages/nav_bar.dart';
+import 'package:gender_equality/assets/colors.dart';
 
 void main() {
   runApp(const MainApp());
@@ -9,12 +12,11 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Mine kırmacı En büyük başkan'),
-        ),
-      ),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'GE App',
+      theme: ThemeData(),
+      home: const NavBar(),
     );
   }
 }
