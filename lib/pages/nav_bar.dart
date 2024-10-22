@@ -31,8 +31,7 @@ class _NavBarState extends State<NavBar> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: AppColors.mediumGray,
-        title:
-            Text('Gender-Equality App', style: TextStyle(color: Colors.black)),
+        title: Text('Ahmet', style: TextStyle(color: Colors.black)),
         actions: [IconButton(onPressed: () {}, icon: Icon(Icons.menu))],
       ),
       body: _pages[_selectedPage],
