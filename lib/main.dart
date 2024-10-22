@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gender_equality/pages/home_page.dart';
 import 'package:gender_equality/pages/nav_bar.dart';
-import 'package:gender_equality/assets/colors.dart';
 
 void main() {
   runApp(const MainApp());
